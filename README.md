@@ -1,10 +1,18 @@
 brew update-reset 
 
-brew tap weaveworks/tap     
+brew tap weaveworks/tap
+
+------------------------------------------
 
 brew install weaveworks/tap/eksctl
 
 time eksctl create cluster -f eks-course.yaml
+
+eksctl get cluster 
+
+kubectl get nodes  
+
+------------------------------------------
 
 brew install helm
 
