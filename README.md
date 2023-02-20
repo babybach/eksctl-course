@@ -26,6 +26,6 @@ helm install redis-test stable/redis
 
 helm ls
 
-kubectl get po
+kubectl get pod
 
 helm uninstall redis-test 
